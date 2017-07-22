@@ -12,11 +12,10 @@ class ChartExamples(TethysAppBase):
     package = 'chart_examples'
     root_url = 'chart-examples'
     color = '#1abc9c'
-    description = 'Place a brief description of your app here.'
+    description = 'Charting examples for Tethys Platform version 1.4'
     enable_feedback = False
     feedback_emails = []
 
-        
     def url_maps(self):
         """
         Add controllers
